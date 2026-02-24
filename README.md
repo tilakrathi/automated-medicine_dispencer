@@ -2,6 +2,10 @@
 
 A web application paired with an ESP32 device that automates daily medication schedules. The idea came from a common problem — people forget to take their medicine, or caregivers struggle to manage multiple patients. This project tries to solve that with a simple interface backed by a physical dispenser.
 
+##Live
+
+https://automated-medicine-dispencer.vercel.app/login
+
 ## What it does
 
 The dispenser holds up to 8 medication slots. Through the web app, you schedule when each slot should dispense, and the ESP32 handles the rest. Every dose is logged, so you can see whether medicine was taken on time, missed, or dispensed manually. Caregivers get a shared view across the patients they manage.
